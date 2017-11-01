@@ -4,9 +4,9 @@ Machine learning algorithms create potentially more accurate models than linear 
 
 #### Notes
 
-* [O'Reilly AI conference slides about MLI](notes/h2o_oreilly_ai_slides.pdf) </br>by Patrick Hall, Wen Phan, SriSatish Ambati, & H2O.ai team
+* [Strata conference slides about MLI](notes/h2o_oreilly_ai_slides.pdf) </br>by Patrick Hall, Wen Phan, SriSatish Ambati, & H2O.ai team
 
-* [Notes from Patrick Hall, Senior Director for Data Science Products at H2o.ai](notes/phall_notes.pdf)
+* [Notes from Patrick Hall, Senior Director for Data Science Products at H2o.ai](https://github.com/jphall663/GWU_data_mining/blob/master/10_model_interpretability/notes/instructor_notes.pdf)
 
 * Practical MLI examples (Refer to [GetData.md](data/GetData.md) to obtain datasets needed for notebooks)
 
