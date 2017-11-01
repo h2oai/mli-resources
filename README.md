@@ -8,7 +8,7 @@ Machine learning algorithms create potentially more accurate models than linear 
 
 * [Notes from Patrick Hall, Senior Director for Data Science Products at H2o.ai](notes/phall_notes.pdf)
 
-* Practical MLI examples
+* Practical MLI examples (Refer to [GetData.md](data/GetData.md) to obtain datasets needed for notebooks)
 
   * [Decision tree surrogate models](notebooks/dt_surrogate.ipynb)
 
