@@ -8,6 +8,20 @@ Machine learning algorithms create potentially more accurate models than linear 
 
 * [Notes from Patrick Hall, Senior Director for Data Science Products at H2o.ai](notes/phall_notes.pdf)
 
+* Practical MLI examples
+
+  * [Decision tree surrogate models](notebooks/dt_surrogate.ipynb)
+
+  * [LIME (practical samples variant)](notebooks/lime.ipynb)
+
+  * [LOCO (NA variant)](notebooks/loco.ipynb)
+
+  * [Partial dependence and individual conditional expectation (ICE)](notebooks/pdp_ice.ipynb)  
+
+  * [Sensitivity analysis](notebooks/sensitivity_analysis.ipynb)
+
+  * [Monotonic models with XGBoost](notebooks/mono_xgboost.ipynb)
+
 #### References
 
 **General**
