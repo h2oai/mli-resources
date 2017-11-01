@@ -1,1 +1,5 @@
 data/*.csv
+notebooks/*.zip
+notebooks/*.png
+notebooks/*.gv
+*.ipynb_checkpoints/
