@@ -1,7 +1,9 @@
-# This file may be used to create a Docker container using:
+# Install and start docker
+# Then this file may be used to create a Docker container using:
 # $ docker build anaconda_py35_h2o_xgboost_graphviz
 # $ docker run -i -t -p 8888:8888 <image_id> /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && /opt/conda/bin/jupyter notebook --notebook-dir=/mli-resources --ip='*' --port=8888 --no-browser"
 # $ docker cp path/to/train.csv <container_id>:/mli-resources/data
+# Open a browser and navigate to localhost:8888
 
 # Base debian system
 FROM debian:8.5
