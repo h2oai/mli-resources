@@ -48,8 +48,6 @@ RUN pip uninstall h2o || true && \
 
 # Git
 RUN apt-get -y install git
-RUN curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | bash && \
-    apt-get install git-lfs
 
 # Examples
 RUN git clone https://github.com/h2oai/mli-resources.git
