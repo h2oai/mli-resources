@@ -48,6 +48,8 @@ A Dockerfile is provided to build a docker container with all necessary packages
   7. Copy the sample data into the Docker image. Refer to [GetData.md](data/GetData.md) to obtain datasets needed for notebooks.</br>
   `$ docker cp path/to/train.csv <container_id>:/mli-resources/data`
 
+***
+
 **Manual**
 
   Install:
