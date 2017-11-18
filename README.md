@@ -45,7 +45,7 @@ A Dockerfile is provided to build a docker container with all necessary packages
   6. Start the docker image and the Jupyter notebook server.</br>
    `$ docker run -i -t -p 8888:8888 <image_id> /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && /opt/conda/bin/jupyter notebook --notebook-dir=/mli-resources --ip='*' --port=8888 --no-browser"`
 
-  7. List docker containers.
+  7. List docker containers.</br>
   `$ docker ps`
 
   8. Copy the sample data into the Docker container. Refer to [GetData.md](data/GetData.md) to obtain datasets needed for notebooks.</br>
