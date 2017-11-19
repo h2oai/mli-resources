@@ -6,7 +6,7 @@ Machine learning algorithms create potentially more accurate models than linear 
 
 A [Dockerfile](anaconda_py35_h2o_xgboost_graphviz/Dockerfile) is provided that will construct a container with all necessary dependencies to run the examples here.
 
-#### Practical MLI examples
+### Practical MLI examples
 
   * [Decision tree surrogate models](notebooks/dt_surrogate.ipynb)
 
@@ -20,9 +20,9 @@ A [Dockerfile](anaconda_py35_h2o_xgboost_graphviz/Dockerfile) is provided that w
 
   * [Monotonic models with XGBoost](notebooks/mono_xgboost.ipynb)
 
-#### Installation
+### Installation
 
-**Dockerfile**
+#### Dockerfile
 
 A Dockerfile is provided to build a docker container with all necessary packages and dependencies. This is the easiest way to use these examples if you are on Mac OS X, \*nix, or Windows 10. To do so:
 
@@ -55,7 +55,7 @@ A Dockerfile is provided to build a docker container with all necessary packages
 
 ***
 
-**Manual**
+#### Manual
 
   Install:
 
@@ -83,9 +83,9 @@ A Dockerfile is provided to build a docker container with all necessary packages
 
   10. Navigate to the port Jupyter directs you to on your machine.
 
-#### References
+### References
 
-**General**
+#### General
 
 * [Machine Learning Interpretability with H2O Driverless AI Booklet](https://www.h2o.ai/wp-content/uploads/2017/09/MLI.pdf)</br>
 by Patrick Hall, Navdeep Gill, Megan Kurka, Wen Phan, and the H2O.ai team
@@ -100,7 +100,7 @@ by Patrick Hall, Wen Phan, SriSatish Ambati, and the H2O.ai team
 
 ***
 
-**Techniques**
+#### Techniques
 
 * **Partial Dependence**: [*Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12.pdf), Section 10.13</br>
 by Trevor Hastie, Rob Tibshirani, and Jerome Friedman
@@ -123,7 +123,7 @@ by Alex Goldstein, Adam Kapelnert, Justin Bleich, and Emil Pitkin
 
 ***
 
-**Notes**
+#### Notes
 
 * [Strata Data Conference slides about MLI](notes/strata_mli_sept_17.pdf) </br>
 by Patrick Hall, Wen Phan, SriSatish Ambati, and the H2O.ai team
