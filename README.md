@@ -49,7 +49,7 @@ A Dockerfile is provided to build a docker container with all necessary packages
   `$ docker ps`
 
   8. Copy the sample data into the Docker container. Refer to [GetData.md](data/GetData.md) to obtain datasets needed for notebooks.</br>
-  `$ docker cp path/to/train.csv <container_id>:/mli-resources/data`
+  `$ docker cp path/to/train.csv <container_id>:/mli-resources/data/train.csv`
 
   9. Navigate to port 8888 on your machine.
 
