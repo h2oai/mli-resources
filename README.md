@@ -125,7 +125,10 @@ by Alex Goldstein, Adam Kapelnert, Justin Bleich, and Emil Pitkin
 
 #### Notes
 
-* [Strata Data Conference slides about MLI](notes/strata_mli_sept_17.pdf) </br>
+* [2017 Strata Data Conference slides about MLI](notes/strata_mli_sept_17.pdf) </br>
 by Patrick Hall, Wen Phan, SriSatish Ambati, and the H2O.ai team
+
+* [2018 FAT* Conference Tutorial Materials](https://www.fatconference.org/static/tutorials/hall_interpretable18.pdf) </br>
+by Patrick Hall, Navdeep Gill, and Mark Chan
 
 * [Notes from Patrick Hall's data mining class at GWU](https://github.com/jphall663/GWU_data_mining/blob/master/10_model_interpretability/notes/instructor_notes.pdf)
