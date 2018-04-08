@@ -54,8 +54,6 @@ A Dockerfile is provided to build a docker container with all necessary packages
   `$ docker cp path/to/train.csv <container_id>:/mli-resources/data/train.csv`
   9. Navigate to port 8888 on your machine.
 
-***
-
 ##### Manual
 
   Install:
