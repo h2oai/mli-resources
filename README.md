@@ -11,7 +11,7 @@ Machine learning algorithms create potentially more accurate models than linear 
     * [Dockerfile](https://github.com/h2oai/mli-resources#dockerfile)
     * [Manual](https://github.com/h2oai/mli-resources#manual)
   * [Additional Code Examples](https://github.com/h2oai/mli-resources#additional-code-examples)
-* [Webinars and Videos](https://github.com/h2oai/mli-resources#webinarsvideos)
+* [ebinars/Videos](https://github.com/h2oai/mli-resources#webinarsvideos)
 * [Booklets](https://github.com/h2oai/mli-resources#booklets)
 * [Conference Presentations](https://github.com/h2oai/mli-resources#conference-presentations)
 * [Miscellaneous Resources](https://github.com/h2oai/mli-resources#miscellaneous-resources)
