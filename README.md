@@ -6,11 +6,22 @@ Machine learning algorithms create potentially more accurate models than linear 
 
 ### Contents
 
-
-
-A [Dockerfile](anaconda_py35_h2o_xgboost_graphviz/Dockerfile) is provided that will construct a container with all necessary dependencies to run the examples here.
+* [Practical MLI Examples](https://github.com/h2oai/mli-resources#practical-mli-examples)
+  * [Installation of Examples](https://github.com/h2oai/mli-resources#installation-of-examples)
+    * [Dockerfile](https://github.com/h2oai/mli-resources#dockerfile)
+    * [Manual](https://github.com/h2oai/mli-resources#manual)
+  * [Additional Code Examples](https://github.com/h2oai/mli-resources#additional-code-examples)
+* [Webinars and Videos](https://github.com/h2oai/mli-resources#webinarsvideos)
+* [Booklets](https://github.com/h2oai/mli-resources#booklets)
+* [Conference Presentations](https://github.com/h2oai/mli-resources#conference-presentations)
+* [Miscellaneous Resources]()
+* [References](https://github.com/h2oai/mli-resources#references)
+  * [General](https://github.com/h2oai/mli-resources#general)
+  * [Techniques](https://github.com/h2oai/mli-resources#techniques)
 
 ### Practical MLI examples
+
+(A [Dockerfile](anaconda_py35_h2o_xgboost_graphviz/Dockerfile) is provided that will construct a container with all necessary dependencies to run the examples here.)
 
   * [Decision tree surrogate models](notebooks/dt_surrogate.ipynb)
   * [LIME (practical samples variant)](notebooks/lime.ipynb)
@@ -71,7 +82,7 @@ A Dockerfile is provided to build a docker container with all necessary packages
 
 #### Additional Code Examples
 
-The notebooks on in this repo have been revamped and refined many times. Other versions with different, and potentially interesting, details are available at these locations:
+The notebooks in this repo have been revamped and refined many times. Other versions with different, and potentially interesting, details are available at these locations:
 
 * [O'Reilly Media GitLab](https://content.oreilly.com/oriole/Interpretable-machine-learning-with-Python-XGBoost-and-H2O)
 * [github.com/jphall663](https://github.com/jphall663/interpretable_machine_learning_with_python)
@@ -97,11 +108,11 @@ The notebooks on in this repo have been revamped and refined many times. Other v
 * [Practical Techniques for Interpreting Machine Learning Models - 2018 FAT* Conference Tutorial](https://www.fatconference.org/static/tutorials/hall_interpretable18.pdf)
 * [Driverless AI Hands-On Focused on Machine Learning Interpretability - H2O World 2017](http://video.h2o.ai/watch/9g8TrVXUfgYgKq4FReia7z)
 * [Interpretable AI: Not Just For Regulators! - Strata NYC 2017](notes/strata_mli_sept_17.pdf)
-* [Ideas on Interpreting Machine Learning - SlideShare](https://www.slideshare.net/0xdata/interpretable-machine-learning)
 
-### Notes
+### Miscellaneous Resources
 
 * [Notes from Patrick Hall's data mining class at GWU](https://github.com/jphall663/GWU_data_mining/blob/master/10_model_interpretability/notes/instructor_notes.pdf)
+* [Ideas on Interpreting Machine Learning - SlideShare](https://www.slideshare.net/0xdata/interpretable-machine-learning)
 
 ### References
 
