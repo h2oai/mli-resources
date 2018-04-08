@@ -1,5 +1,7 @@
+*.DS_Store
 data/*.csv
 notebooks/*.zip
 notebooks/*.png
 notebooks/*.gv
 notebooks/*.ipynb_checkpoints/
+.idea*
