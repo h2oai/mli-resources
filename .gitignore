@@ -5,3 +5,5 @@ notebooks/*.png
 notebooks/*.gv
 notebooks/*.ipynb_checkpoints/
 .idea*
+*ipynb_checkpoints
+*.pyc

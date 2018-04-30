@@ -11,7 +11,8 @@ Machine learning algorithms create potentially more accurate models than linear 
     * [Dockerfile](https://github.com/h2oai/mli-resources#dockerfile)
     * [Manual](https://github.com/h2oai/mli-resources#manual)
   * [Additional Code Examples](https://github.com/h2oai/mli-resources#additional-code-examples)
-* [ebinars/Videos](https://github.com/h2oai/mli-resources#webinarsvideos)
+* [Testing Explanations](https://github.com/h2oai/mli-resources#testing-explanations)
+* [Webinars/Videos](https://github.com/h2oai/mli-resources#webinarsvideos)
 * [Booklets](https://github.com/h2oai/mli-resources#booklets)
 * [Conference Presentations](https://github.com/h2oai/mli-resources#conference-presentations)
 * [Miscellaneous Resources](https://github.com/h2oai/mli-resources#miscellaneous-resources)
@@ -84,6 +85,10 @@ The notebooks in this repo have been revamped and refined many times. Other vers
 
 * [O'Reilly Media GitLab](https://content.oreilly.com/oriole/Interpretable-machine-learning-with-Python-XGBoost-and-H2O)
 * [github.com/jphall663](https://github.com/jphall663/interpretable_machine_learning_with_python)
+
+### Testing Explanations
+
+One way to test generated explanations for accuracy is with simulated data with known characteristics. For instance, models trained on totally random data with no relationship between a number of input variables and a prediction target should not give strong weight to any input variable nor generate compelling local explanations or reason codes. Conversely, you can use simulated data with a known signal generating function to test that explanations accurately represent that known function. Examples of testing explanations with simulated data are available [here](https://github.com/h2oai/mli-resources/tree/master/lime_shap_treeint_compare).
 
 ### Webinars/Videos
 

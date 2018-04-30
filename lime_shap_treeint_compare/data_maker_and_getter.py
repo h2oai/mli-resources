@@ -23,7 +23,7 @@ import string
 import numpy as np
 import pandas as pd
 import h2o
-
+from numpy.random import uniform
 
 class DataMakerAndGetter(object):
 
@@ -39,11 +39,13 @@ class DataMakerAndGetter(object):
     :ivar nrows: Number of rows of the  generated data set, default 100000.
     :ivar target: Can be 'numeric' or 'binary', default 'binary'.
     :ivar save: Save or not save the file, default not save.
+    :ivar noise: Adds noise to signal generating function, default False.
 
     """
 
     # constructor
-    def __init__(self, seed=None, nrows=None, target=None, save=None, one_function=None):
+    def __init__(self, seed=None, nrows=None, target=None, save=None,
+                 one_function=None, noise=None):
 
         # init properties
         self.__ncols = 15
@@ -74,6 +76,11 @@ class DataMakerAndGetter(object):
             self.one_function = False
         else:
             self.one_function = one_function
+
+        if noise is None:
+            self.noise = False
+        else:
+            self.noise = noise
 
     @property
     def ncols(self):
@@ -164,19 +171,25 @@ class DataMakerAndGetter(object):
         frame.loc[::1, 'target'] = np.abs(frame.loc[::1, 'num8']) *\
             np.square(frame.loc[::1, 'num9']) + frame.loc[::1, 'num4'] *\
             frame.loc[::1, 'num1']
+
         frame.loc[::1, 'function'] = 1
 
         # function 2, on mod 2 rows
-        if self.one_function == False:
+        if not self.one_function:
             frame.loc[::2, 'target'] = np.sin(frame.loc[::2, 'num6']) -\
                 np.sqrt(np.abs(frame.loc[::2, 'num7'])) - frame.loc[::2, 'num2'] *\
                 frame.loc[::2, 'num3']
+
             frame.loc[::2, 'function'] = 2
 
+        cut = frame.loc[:, 'target'].mean()
+
+        if self.noise:
+            frame.loc[::5, 'target'] = 1
+            frame.loc[::7, 'target'] = 0
 
         # set the cut off point for binary target
         if self.target == 'binary':
-            cut = frame['target'].mean()
             frame.loc[frame['target'] >= cut, 'target'] = 1
             frame.loc[frame['target'] < cut, 'target'] = 0
 
@@ -184,7 +197,6 @@ class DataMakerAndGetter(object):
         if cached_save:
             frame.to_csv('random_with_signal.csv', index=False)
             self.save = cached_save
-
 
         return h2o.H2OFrame(frame)
 
