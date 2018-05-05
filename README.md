@@ -95,6 +95,7 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [Interpretable Machine Learning Meetup - Washington DC](https://www.youtube.com/watch?v=3uLegw5HhYk)
 * [Machine Learning Interpretability with Driverless AI](https://www.youtube.com/watch?v=3_gm00kBwEw)
 * [Interpretability in conversation with Patrick Hall and Sameer Singh](http://blog.fastforwardlabs.com/2017/09/11/interpretability-webinar.html)
+* [NYC Big Data Science Meetup](https://www.youtube.com/watch?v=Q8rTrmqUQsU)
 * O'Reilly Media Interactive Notebooks (Requires O'Reilly Safari Membership):
   * [Enhancing transparency in machine learning models with Python and XGBoost](https://www.safaribooksonline.com/oriole/enhancing-transparency-in-machine-learning-models-with-python-and-xgboost)
   * [Increase transparency and accountability in your machine learning project with Python](https://www.safaribooksonline.com/oriole/increase-transparency-and-accountability-in-your-machine-learning-project-with-python)
