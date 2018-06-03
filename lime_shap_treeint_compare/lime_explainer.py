@@ -349,7 +349,7 @@ class LIMEExplainer(object):
         _ = local_contrib_plot_frame.plot(x='Input',
                                           y='Local Contribution',
                                           kind='bar',
-                                          title='Reason Codes',
+                                          title='Approximate Local Contributions',
                                           legend=False,
                                           color='b')
 
