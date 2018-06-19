@@ -129,6 +129,7 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [Explaining Explanations: An Approach to Evaluating Interpretability of Machine Learning](https://arxiv.org/pdf/1806.00069.pdf)
 * [A Survey Of Methods For Explaining Black Box Models](https://arxiv.org/pdf/1802.01933.pdf)
 * [Trends and Trajectories for Explainable, Accountable and Intelligible Systems: An HCI Research Agenda](https://dl.acm.org/citation.cfm?id=3174156)
+* [Interpretable Machine Learning by Christoph Molnar](https://github.com/christophM/interpretable-ml-book)
 
 #### Techniques
 
