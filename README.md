@@ -119,6 +119,7 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [Ideas on Interpreting Machine Learning - SlideShare](https://www.slideshare.net/0xdata/interpretable-machine-learning)
 * [Predictive modeling: Striking a balance between accuracy and interpretability](https://www.oreilly.com/ideas/predictive-modeling-striking-a-balance-between-accuracy-and-interpretability)
 * [Testing machine learning interpretability techniques](https://www.oreilly.com/ideas/testing-machine-learning-interpretability-techniques)
+* [Interpreting Machine Learning Models: An Overview](https://www.kdnuggets.com/2017/11/interpreting-machine-learning-models-overview.html)
 
 ### References
 
