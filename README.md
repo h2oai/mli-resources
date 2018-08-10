@@ -30,6 +30,8 @@ Machine learning algorithms create potentially more accurate models than linear 
   * [Partial dependence and individual conditional expectation (ICE)](notebooks/pdp_ice.ipynb)  
   * [Sensitivity analysis](notebooks/sensitivity_analysis.ipynb)
   * [Monotonic models with XGBoost](notebooks/mono_xgboost.ipynb)
+  * [Diabetes data set use case](https://github.com/jphall663/diabetes_use_case) </br>
+  (Diabetes use case has different Dockerfile in seperate repo.)
 
 #### Installation of Examples
 
@@ -112,6 +114,7 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [Practical Techniques for Interpreting Machine Learning Models - 2018 FAT* Conference Tutorial](https://www.fatconference.org/static/tutorials/hall_interpretable18.pdf)
 * [Driverless AI Hands-On Focused on Machine Learning Interpretability - H2O World 2017](http://video.h2o.ai/watch/9g8TrVXUfgYgKq4FReia7z)
 * [Interpretable AI: Not Just For Regulators! - Strata NYC 2017](notes/strata_mli_sept_17.pdf)
+* [JSM 2018 Slides](https://github.com/jphall663/jsm_2018_slides/blob/master/main.pdf)
 
 ### Miscellaneous Resources
 
