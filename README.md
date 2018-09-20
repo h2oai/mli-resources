@@ -97,7 +97,8 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [Interpretable Machine Learning Meetup - Washington DC](https://www.youtube.com/watch?v=3uLegw5HhYk)
 * [Machine Learning Interpretability with Driverless AI](https://www.youtube.com/watch?v=3_gm00kBwEw)
 * [Interpretability in conversation with Patrick Hall and Sameer Singh](http://blog.fastforwardlabs.com/2017/09/11/interpretability-webinar.html)
-* [NYC Big Data Science Meetup](https://www.youtube.com/watch?v=Q8rTrmqUQsU)
+* [NYC Big Data Science Meetup I (less technical)](https://www.youtube.com/watch?v=Q8rTrmqUQsU)
+* [NYC Big Data Science Meetup II (more technical)](https://www.youtube.com/watch?v=RcUdUZf8_SU)  
 * O'Reilly Media Interactive Notebooks (Requires O'Reilly Safari Membership):
   * [Enhancing transparency in machine learning models with Python and XGBoost](https://www.safaribooksonline.com/oriole/enhancing-transparency-in-machine-learning-models-with-python-and-xgboost)
   * [Increase transparency and accountability in your machine learning project with Python](https://www.safaribooksonline.com/oriole/increase-transparency-and-accountability-in-your-machine-learning-project-with-python)
@@ -135,6 +136,7 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [A Survey Of Methods For Explaining Black Box Models](https://arxiv.org/pdf/1802.01933.pdf)
 * [Trends and Trajectories for Explainable, Accountable and Intelligible Systems: An HCI Research Agenda](https://dl.acm.org/citation.cfm?id=3174156)
 * [Interpretable Machine Learning by Christoph Molnar](https://github.com/christophM/interpretable-ml-book)
+* [On the Art and Science of Machine Learning Explanations (JSM 2018 Proceedings paper)](https://github.com/jphall663/jsm_2018_paper/blob/master/jsm_2018_paper.pdf)
 
 #### Techniques
 
