@@ -119,7 +119,6 @@ One way to test generated explanations for accuracy is with simulated data with 
 
 ### Miscellaneous Resources
 
-* [Notes from Patrick Hall's data mining class at GWU](https://github.com/jphall663/GWU_data_mining/blob/master/10_model_interpretability/notes/instructor_notes.pdf)
 * [Ideas on Interpreting Machine Learning - SlideShare](https://www.slideshare.net/0xdata/interpretable-machine-learning)
 * [Predictive modeling: Striking a balance between accuracy and interpretability](https://www.oreilly.com/ideas/predictive-modeling-striking-a-balance-between-accuracy-and-interpretability)
 * [Testing machine learning interpretability techniques](https://www.oreilly.com/ideas/testing-machine-learning-interpretability-techniques)
