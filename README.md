@@ -22,7 +22,7 @@ Machine learning algorithms create potentially more accurate models than linear 
 
 ### Practical MLI examples
 
-(A [Dockerfile](anaconda_py35_h2o_xgboost_graphviz/Dockerfile) is provided that will construct a container with all necessary dependencies to run the examples here.)
+(A [Dockerfile](anaconda_py36_h2o_xgboost_graphviz/Dockerfile) is provided that will construct a container with all necessary dependencies to run the examples here.)
 
   * [Decision tree surrogate models](notebooks/dt_surrogate.ipynb)
   * [LIME (practical samples variant)](notebooks/lime.ipynb)
@@ -42,15 +42,15 @@ A Dockerfile is provided to build a docker container with all necessary packages
   1. Install and start [docker](https://www.docker.com/).
   From a terminal:
   2. Create a directory for the Dockerfile.</br>
-  `$ mkdir anaconda_py35_h2o_xgboost_graphviz`
+  `$ mkdir anaconda_py36_h2o_xgboost_graphviz`
   3. Fetch the Dockerfile from the mli-resources repo.</br>
-  `$ curl https://raw.githubusercontent.com/h2oai/mli-resources/master/anaconda_py35_h2o_xgboost_graphviz/Dockerfile > anaconda_py35_h2o_xgboost_graphviz/Dockerfile`
+  `$ curl https://raw.githubusercontent.com/h2oai/mli-resources/master/anaconda_py36_h2o_xgboost_graphviz/Dockerfile > anaconda_py36_h2o_xgboost_graphviz/Dockerfile`
   4. Build a docker image from the Dockefile.</br>
-  `$ docker build anaconda_py35_h2o_xgboost_graphviz`
+  `$ docker build anaconda_py36_h2o_xgboost_graphviz`
   5. Display docker image IDs. You are probably interested in the most recently created image. </br>
   `$ docker images`
   6. Start the docker image and the Jupyter notebook server.</br>
-   `$ docker run -i -t -p 8888:8888 <image_id> /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && /opt/conda/bin/jupyter notebook --notebook-dir=/mli-resources --ip='*' --port=8888 --no-browser"`
+   `$ docker run -i -t -p 8888:8888 <image_id> /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && /opt/conda/bin/jupyter notebook --notebook-dir=/mli-resources --ip='*' --port=8888 --no-browser --allow-root"`
   7. List docker containers.</br>
   `$ docker ps`
   8. Copy the sample data into the Docker container. Refer to [GetData.md](data/GetData.md) to obtain datasets needed for notebooks.</br>
@@ -61,7 +61,7 @@ A Dockerfile is provided to build a docker container with all necessary packages
 
   Install:
 
-  1. Anaconda Python 4.2.0 from the [Anaconda archives](https://repo.continuum.io/archive/).
+  1. Anaconda Python 5.1.0 from the [Anaconda archives](https://repo.continuum.io/archive/).
   2. [Java](https://java.com/download).
   3. The latest stable [h2o](https://www.h2o.ai/download/) Python package.
   4. [Git](https://git-scm.com/downloads).
