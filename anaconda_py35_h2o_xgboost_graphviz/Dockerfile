@@ -1,7 +1,7 @@
 # Install and start docker
 # Then this file may be used to create a Docker container using:
 # $ docker build anaconda_py35_h2o_xgboost_graphviz
-# $ docker run -i -t -p 8888:8888 <image_id> /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && /opt/conda/bin/jupyter notebook --notebook-dir=/mli-resources --ip='*' --port=8888 --no-browser"
+# $ docker run -i -t -p 8888:8888 <image_id> /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && /opt/conda/bin/jupyter notebook --notebook-dir=/mli-resources --ip='*' --port=8888 --no-browser --allow-root"
 # Open a browser and navigate to localhost:8888
 
 # Base debian system
@@ -13,7 +13,7 @@ RUN apt-get update --fix-missing && apt-get install -y wget bzip2 ca-certificate
     libglib2.0-0 libxext6 libsm6 libxrender1 \
     git mercurial subversion
 
-# Anaconda Python 3.5
+# Anaconda Python 3.6 
 RUN echo 'export PATH=/opt/conda/bin:$PATH' > /etc/profile.d/conda.sh && \
     wget --quiet https://repo.continuum.io/archive/Anaconda3-5.1.0-Linux-x86_64.sh -O ~/anaconda.sh && \
     /bin/bash ~/anaconda.sh -b -p /opt/conda && \
@@ -49,7 +49,7 @@ RUN pip uninstall h2o || true && \
 RUN apt-get -y install git
 
 # Examples
-RUN git clone https://github.com/jphall663/diabetes_use_case.git
+RUN git clone https://github.com/h2oai/mli-resources.git
 
 # XGBoost
 RUN apt-get update --fix-missing && \
