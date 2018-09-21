@@ -64,5 +64,5 @@ RUN apt-get update --fix-missing && \
 # GraphViz
 RUN apt-get -y install graphviz
 
-# Tree Shap
-RUN pip install shap
+# Tree Shap/ELI5
+RUN pip install shap eli5
