@@ -45,7 +45,7 @@ A Dockerfile is provided to build a docker container with all necessary packages
   `$ mkdir anaconda_py36_h2o_xgboost_graphviz`
   3. Fetch the Dockerfile from the mli-resources repo.</br>
   `$ curl https://raw.githubusercontent.com/h2oai/mli-resources/master/anaconda_py36_h2o_xgboost_graphviz/Dockerfile > anaconda_py36_h2o_xgboost_graphviz/Dockerfile`
-  4. Build a docker image from the Dockefile.</br>
+  4. Build a docker image from the Dockefile. For this and other docker commands below, you may need to use `sudo`. </br>
   `$ docker build --no-cache anaconda_py36_h2o_xgboost_graphviz`
   5. Display docker image IDs. You are probably interested in the most recently created image. </br>
   `$ docker images`
@@ -55,7 +55,7 @@ A Dockerfile is provided to build a docker container with all necessary packages
   `$ docker ps`
   8. Copy the sample data into the Docker container. Refer to [GetData.md](data/GetData.md) to obtain datasets needed for notebooks.</br>
   `$ docker cp path/to/train.csv <container_id>:/mli-resources/data/train.csv`
-  9. Navigate to port 8888 on your machine.
+  9. Navigate to the port Jupyter directs you to on your machine. It will likely include a token.
 
 ##### Manual
 
