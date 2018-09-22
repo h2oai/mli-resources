@@ -41,10 +41,9 @@ RUN pip install requests && \
     pip install future && \
     pip install colorama
 
-# H2o
+# H2o, version seems very important
 RUN pip uninstall h2o || true && \
-    pip install -f http://h2o-release.s3.amazonaws.com/h2o/rel-wright/4/Python/h2o-3.20.0.4-py2.py3-none-any.whl --trusted-host h2o-release.s3.amazonaws.com h2o
-
+    pip install h2o==3.20.0.4 
 # Git
 RUN apt-get -y install git
 
