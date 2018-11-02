@@ -90,7 +90,7 @@ The notebooks in this repo have been revamped and refined many times. Other vers
 
 ### Testing Explanations
 
-One way to test generated explanations for accuracy is with simulated data with known characteristics. For instance, models trained on totally random data with no relationship between a number of input variables and a prediction target should not give strong weight to any input variable nor generate compelling local explanations or reason codes. Conversely, you can use simulated data with a known signal generating function to test that explanations accurately represent that known function. Examples of testing explanations with simulated data are available [here](https://github.com/h2oai/mli-resources/tree/master/lime_shap_treeint_compare).
+One way to test generated explanations for accuracy is with simulated data with known characteristics. For instance, models trained on totally random data with no relationship between a number of input variables and a prediction target should not give strong weight to any input variable nor generate compelling local explanations or reason codes. Conversely, you can use simulated data with a known signal generating function to test that explanations accurately represent that known function. Detailed examples of testing explanations with simulated data are available [here](https://github.com/h2oai/mli-resources/tree/master/lime_shap_treeint_compare). A summary of these results are available [here](https://www.oreilly.com/ideas/testing-machine-learning-interpretability-techniques).
 
 ### Webinars/Videos
 
@@ -99,6 +99,7 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [Interpretability in conversation with Patrick Hall and Sameer Singh](http://blog.fastforwardlabs.com/2017/09/11/interpretability-webinar.html)
 * [NYC Big Data Science Meetup I (less technical)](https://www.youtube.com/watch?v=Q8rTrmqUQsU)
 * [NYC Big Data Science Meetup II (more technical)](https://www.youtube.com/watch?v=RcUdUZf8_SU)  
+* [H2O Driverless AI machine learning interpretability software walk-through](https://www.youtube.com/watch?v=5jSU3CUReXY)
 * O'Reilly Media Interactive Notebooks (Requires O'Reilly Safari Membership):
   * [Enhancing transparency in machine learning models with Python and XGBoost](https://www.safaribooksonline.com/oriole/enhancing-transparency-in-machine-learning-models-with-python-and-xgboost)
   * [Increase transparency and accountability in your machine learning project with Python](https://www.safaribooksonline.com/oriole/increase-transparency-and-accountability-in-your-machine-learning-project-with-python)
@@ -121,12 +122,10 @@ One way to test generated explanations for accuracy is with simulated data with 
 
 * [Ideas on Interpreting Machine Learning - SlideShare](https://www.slideshare.net/0xdata/interpretable-machine-learning)
 * [Predictive modeling: Striking a balance between accuracy and interpretability](https://www.oreilly.com/ideas/predictive-modeling-striking-a-balance-between-accuracy-and-interpretability)
-* [Testing machine learning interpretability techniques](https://www.oreilly.com/ideas/testing-machine-learning-interpretability-techniques)
+* [Testing machine learning explanation techniques](https://www.oreilly.com/ideas/testing-machine-learning-interpretability-techniques)
 * [Interpreting Machine Learning Models: An Overview](https://www.kdnuggets.com/2017/11/interpreting-machine-learning-models-overview.html)
 
-### References
-
-#### General
+### General References
 
 * [Towards A Rigorous Science of Interpretable Machine Learning](https://arxiv.org/pdf/1702.08608.pdf)
 * [Ideas for Machine Learning Interpretability](https://www.oreilly.com/ideas/ideas-on-interpreting-machine-learning)
@@ -136,15 +135,6 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [Trends and Trajectories for Explainable, Accountable and Intelligible Systems: An HCI Research Agenda](https://dl.acm.org/citation.cfm?id=3174156)
 * [Interpretable Machine Learning by Christoph Molnar](https://github.com/christophM/interpretable-ml-book)
 * [On the Art and Science of Machine Learning Explanations (JSM 2018 Proceedings paper)](https://github.com/jphall663/jsm_2018_paper/blob/master/jsm_2018_paper.pdf)
-
-#### Techniques
-
-* **Partial Dependence**: [*Elements of Statistical Learning*](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12.pdf)
-* **LIME**: [“Why Should I Trust You?” Explaining the Predictions of Any Classifier](http://www.kdd.org/kdd2016/papers/files/rfp0573-ribeiroA.pdf)
-* **LOCO**: [Distribution-Free Predictive Inference for Regression](http://www.stat.cmu.edu/~ryantibs/papers/conformal.pdf)
-* **ICE**: [Peeking inside the black box: Visualizing statistical learning with plots of individual conditional expectation](https://arxiv.org/pdf/1309.6392.pdf)
-* **Surrogate Models**
-  * [Extracting tree structured representations of trained networks](https://papers.nips.cc/paper/1152-extracting-tree-structured-representations-of-trained-networks.pdf)
-  * [Interpreting Blackbox Models via Model Extraction](https://arxiv.org/pdf/1705.08504.pdf)
-* **Shapely Explanations**: [A Unified Approach to Interpreting Model Predictions](http://papers.nips.cc/paper/7062-a-unified-approach-to-interpreting-model-predictions)
-* **Anchors**: [Anchors: High-Precision Model-Agnostic Explanations](https://homes.cs.washington.edu/~marcotcr/aaai18.pdf)
+* [Toward Dispelling Unhelpful Explainable Machine Learning (ML) Misconceptions (Preprint/WIP)](https://github.com/jphall663/xai_misconceptions/blob/master/xai_misconceptions.pdf)
+* [The Mythos of Model Interpretability](https://arxiv.org/pdf/1606.03490.pdf)
+* [Challenges for Transparency](https://arxiv.org/pdf/1708.01870.pdf)
