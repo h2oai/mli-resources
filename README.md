@@ -99,7 +99,7 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [Interpretability in conversation with Patrick Hall and Sameer Singh](http://blog.fastforwardlabs.com/2017/09/11/interpretability-webinar.html)
 * [NYC Big Data Science Meetup I (less technical)](https://www.youtube.com/watch?v=Q8rTrmqUQsU)
 * [NYC Big Data Science Meetup II (more technical)](https://www.youtube.com/watch?v=RcUdUZf8_SU)  
-* [H2O Driverless AI machine learning interpretability software walk-through](https://www.youtube.com/watch?v=5jSU3CUReXY)
+* [H2O Driverless AI machine learning interpretability software walk-through (accompanies cheatsheet below)](https://www.youtube.com/watch?v=5jSU3CUReXY)
 * O'Reilly Media Interactive Notebooks (Requires O'Reilly Safari Membership):
   * [Enhancing transparency in machine learning models with Python and XGBoost](https://www.safaribooksonline.com/oriole/enhancing-transparency-in-machine-learning-models-with-python-and-xgboost)
   * [Increase transparency and accountability in your machine learning project with Python](https://www.safaribooksonline.com/oriole/increase-transparency-and-accountability-in-your-machine-learning-project-with-python)
@@ -124,6 +124,8 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [Predictive modeling: Striking a balance between accuracy and interpretability](https://www.oreilly.com/ideas/predictive-modeling-striking-a-balance-between-accuracy-and-interpretability)
 * [Testing machine learning explanation techniques](https://www.oreilly.com/ideas/testing-machine-learning-interpretability-techniques)
 * [Interpreting Machine Learning Models: An Overview](https://www.kdnuggets.com/2017/11/interpreting-machine-learning-models-overview.html)
+* [H2O Driverless AI MLI cheatsheet (accompanies walk-through video above)](cheatsheet.png) 
+![alt-text](cheatsheet.png)
 
 ### General References
 
