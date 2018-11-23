@@ -117,6 +117,7 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [Driverless AI Hands-On Focused on Machine Learning Interpretability - H2O World 2017](http://video.h2o.ai/watch/9g8TrVXUfgYgKq4FReia7z)
 * [Interpretable AI: Not Just For Regulators! - Strata NYC 2017](notes/strata_mli_sept_17.pdf)
 * [JSM 2018 Slides](https://github.com/jphall663/jsm_2018_slides/blob/master/main.pdf)
+* [ODSC 2018 Slides]
 
 ### Miscellaneous Resources
 
