@@ -2,7 +2,9 @@
 
 Machine learning algorithms create potentially more accurate models than linear models, but any increase in accuracy over more traditional, better-understood, and more easily explainable techniques is not practical for those who must explain their models to regulators or customers. For many decades, the models created by machine learning algorithms were generally taken to be black-boxes. However, a recent flurry of research has introduced credible techniques for interpreting complex, machine-learned models. Materials presented here illustrate applications or adaptations of these techniques for practicing data scientists.
 
-**Want to contribute your own examples?** Just make a pull request.
+**Want to contribute your own content?** Just make a pull request.
+
+**Want to use the content in this repo?** Just cite the H2O.ai machine learning interpretability team or the original author(s) as appropriate.
 
 ### Contents
 
@@ -125,8 +127,12 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [Predictive modeling: Striking a balance between accuracy and interpretability](https://www.oreilly.com/ideas/predictive-modeling-striking-a-balance-between-accuracy-and-interpretability)
 * [Testing machine learning explanation techniques](https://www.oreilly.com/ideas/testing-machine-learning-interpretability-techniques)
 * [Interpreting Machine Learning Models: An Overview](https://www.kdnuggets.com/2017/11/interpreting-machine-learning-models-overview.html)
-* [H2O Driverless AI MLI cheatsheet (accompanies walk-through video above)](cheatsheet.png) 
+* [H2O Driverless AI MLI cheatsheet (accompanies walk-through video above)](cheatsheet.png)
 ![alt-text](cheatsheet.png)
+* Imperfect, incomplete, but one-page blueprint for human-friendly machine learning: [PDF](blueprint.pdf), [draw.io XML](blueprint.xml)
+![alt-text](blueprint.pdf)
+
+
 
 ### General References
 
