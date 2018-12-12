@@ -129,10 +129,8 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [Interpreting Machine Learning Models: An Overview](https://www.kdnuggets.com/2017/11/interpreting-machine-learning-models-overview.html)
 * [H2O Driverless AI MLI cheatsheet (accompanies walk-through video above)](cheatsheet.png)
 ![alt-text](cheatsheet.png)
-* Imperfect, incomplete, but one-page blueprint for human-friendly machine learning: [PDF](blueprint.pdf), [draw.io XML](blueprint.xml)
-![alt-text](blueprint.pdf)
-
-
+* Imperfect, incomplete, but one-page blueprint for human-friendly machine learning: [PNG](blueprint.png), [draw.io XML](blueprint.xml)
+![alt-text](blueprint.png)
 
 ### General References
 
