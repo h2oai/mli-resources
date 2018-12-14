@@ -130,7 +130,7 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [H2O Driverless AI MLI cheatsheet (accompanies walk-through video above)](cheatsheet.png)
 ![alt-text](cheatsheet.png)
 * Imperfect, incomplete, but one-page blueprint for human-friendly machine learning: [PNG](blueprint.png), [draw.io XML](blueprint.xml)
-![alt-text](blueprint.png)
+![alt-text](blueprint.svg)
 
 ### General References
 
