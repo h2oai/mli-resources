@@ -92,7 +92,7 @@ The notebooks in this repo have been revamped and refined many times. Other vers
 
 ### Testing Explanations
 
-One way to test generated explanations for accuracy is with simulated data with known characteristics. For instance, models trained on totally random data with no relationship between a number of input variables and a prediction target should not give strong weight to any input variable nor generate compelling local explanations or reason codes. Conversely, you can use simulated data with a known signal generating function to test that explanations accurately represent that known function. Detailed examples of testing explanations with simulated data are available [here](https://github.com/h2oai/mli-resources/tree/master/lime_shap_treeint_compare). A summary of these results are available [here](https://www.oreilly.com/ideas/testing-machine-learning-interpretability-techniques).
+One way to test generated explanations for accuracy is with simulated data with known characteristics. For instance, models trained on totally random data with no relationship between a number of input variables and a prediction target should not give strong weight to any input variable nor generate compelling local explanations or reason codes. Conversely, you can use simulated data with a known signal generating function to test that explanations accurately represent that known function. Detailed examples of testing explanations with simulated data are available [here](https://github.com/h2oai/mli-resources/tree/master/lime_shap_treeint_compare/README.md). A summary of these results are available [here](https://www.oreilly.com/ideas/testing-machine-learning-interpretability-techniques).
 
 ### Webinars/Videos
 
