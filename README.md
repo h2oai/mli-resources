@@ -120,6 +120,7 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [Interpretable AI: Not Just For Regulators! - Strata NYC 2017](notes/strata_mli_sept_17.pdf)
 * [JSM 2018 Slides](https://github.com/jphall663/jsm_2018_slides/blob/master/main.pdf)
 * [ODSC 2018 Slides](https://www.slideshare.net/pramitchoudhary/model-evaluation-in-the-land-of-deep-learning-123891695)
+* [H2O World SF 2019: Human-Centered ML](https://github.com/jphall663/h2oworld_sf_2019/blob/master/main.pdf)
 
 ### Miscellaneous Resources
 
