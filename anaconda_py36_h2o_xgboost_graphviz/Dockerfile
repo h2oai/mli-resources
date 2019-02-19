@@ -54,11 +54,7 @@ RUN git clone https://github.com/h2oai/mli-resources.git
 RUN apt-get update --fix-missing && \
     apt-get -y install gcc g++ make && \
     conda install -y libgcc && \
-    git clone --recursive https://github.com/dmlc/xgboost.git && \
-    cd xgboost && \
-    make && \
-    cd python-package && \
-    python setup.py install --user
+    pip install xgboost==0.7.post3
 
 # GraphViz
 RUN apt-get -y install graphviz
