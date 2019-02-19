@@ -102,6 +102,7 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [NYC Big Data Science Meetup I (less technical)](https://www.youtube.com/watch?v=Q8rTrmqUQsU)
 * [NYC Big Data Science Meetup II (more technical)](https://www.youtube.com/watch?v=RcUdUZf8_SU)  
 * [H2O Driverless AI machine learning interpretability software walk-through (accompanies cheatsheet below)](https://www.youtube.com/watch?v=5jSU3CUReXY)
+* [H2O World SF 2019: Human-Centered ML](https://www.youtube.com/watch?v=diMSemHRNDw)
 * O'Reilly Media Interactive Notebooks (Requires O'Reilly Safari Membership):
   * [Enhancing transparency in machine learning models with Python and XGBoost](https://www.safaribooksonline.com/oriole/enhancing-transparency-in-machine-learning-models-with-python-and-xgboost)
   * [Increase transparency and accountability in your machine learning project with Python](https://www.safaribooksonline.com/oriole/increase-transparency-and-accountability-in-your-machine-learning-project-with-python)
