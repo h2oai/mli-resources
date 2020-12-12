@@ -147,3 +147,4 @@ One way to test generated explanations for accuracy is with simulated data with 
 * [Toward Dispelling Unhelpful Explainable Machine Learning (ML) Misconceptions (Preprint/WIP)](https://github.com/jphall663/xai_misconceptions/blob/master/xai_misconceptions.pdf)
 * [The Mythos of Model Interpretability](https://arxiv.org/pdf/1606.03490.pdf)
 * [Challenges for Transparency](https://arxiv.org/pdf/1708.01870.pdf)
+* [Explaining by Removing: A Unified Framework for Model Explanation](https://arxiv.org/abs/2011.14878)
